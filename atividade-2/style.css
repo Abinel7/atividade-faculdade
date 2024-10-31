@@ -1,0 +1,140 @@
+body {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+
+.list {
+    list-style-type: lower-roman;
+}
+
+h3 {
+    border: solid black;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+ul {
+    display: flex;
+    list-style-position: inside;
+    margin-left: 20px;
+    padding-left: 40%;
+    flex-direction: column;
+    list-style-type: square;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    width: 700px;
+    margin: 20px auto;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    gap: 6px;
+    text-align: center;
+}
+
+.html {
+    grid-area: 1 / 1 / 4 / 4;
+    border: 1px solid black;
+    background-color: #ffffcc;
+    text-align: center;
+    align-content: center;
+}
+
+.css {
+    grid-area: 1 / 4 / 2 / 10;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #ffffcc;
+}
+
+.W3C {
+    grid-area: 1 / 10 / 2 / 13;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #ffffcc;
+}
+
+.flexbox {
+    grid-area: 2 / 4 / 3 / 6;
+    border: 1px solid black;
+    background-color: #00ffff;
+}
+
+.formulario {
+    grid-area: 2 / 6 / 3 / 10;
+    border: 1px solid black;
+    background-color: #00ffff;
+}
+
+.validacao {
+    grid-area: 2 / 10 / 3 / 13;
+    border: 1px solid black;
+    background-color: #00ffff;
+}
+
+.layout {
+    grid-area: 3 / 4 / 4 / 6;
+    border: 1px solid black;
+    background-color: #0000ff;
+}
+
+.normas {
+    grid-area: 3 / 6 / 4 / 13;
+    border: 1px solid black;
+    background-color: #0000ff;
+}
+
+.web-semantica {
+    grid-area: 4 / 1 / 5 / 13;
+    text-align: center;
+    border: 1px solid black;
+    background-color: #ffffcc;
+}
+
+.fipp {
+    grid-area: 5 / 1 / 6 / 6;
+    border: 1px solid black;
+    background-color: #00ffff;
+}
+
+.unoeste {
+    grid-area: 5 / 6 / 6 / 13;
+    border: 1px solid black;
+    background-color: #00ffff;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #020101;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.aluno {
+    background-color: #0000ff;
+    width: 10%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.ra {
+    background-color: #0000ff;
+    width: 10%;
+    padding: 10px;
+    margin: 10px;
+}
+
